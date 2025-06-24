@@ -116,7 +116,7 @@
 /*** Topbar Start ***/
 .topbar {
     padding: 2px 10px 2px 20px;
-    background: var(--bs-dark) !important;
+    background: var(--bs-success) !important;
 }
 
 @media (max-width: 768px) {
@@ -134,7 +134,7 @@
 
 .navbar .navbar-nav .nav-item.nav-link,
 .navbar .navbar-nav .nav-link {
-    color: var(--bs-dark) !important;
+    color: var(--bs-success) !important;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -215,7 +215,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary) !important;
+    background: var(--bs-success) !important;
     color: var(--bs-white);
 }
 
