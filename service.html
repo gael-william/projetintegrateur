@@ -88,7 +88,6 @@
                             <div class="dropdown-menu m-0">
                                 <a href="service.html" class="dropdown-item">Cours</a>
                                 <a href="service.html" class="dropdown-item">Evaluations</a>
-                                <a href="#" class="dropdown-item">Certifications</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -119,12 +118,12 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Recherche par mot-clé</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
                     </div>
                     <div class="modal-body d-flex align-items-center">
                         <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <input type="search" class="form-control p-3" placeholder="Mots-clés" aria-describedby="search-icon-1">
                             <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                         </div>
                     </div>
@@ -134,154 +133,275 @@
         <!-- Modal Search End -->
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="bg-breadcrumb-single"></div>
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+       
+        <div class="header-carousel owl-carousel d-none d-md-block">
+        <div class="header-carousel-item">
+            <div class="header-carousel-item-img-1">
+                <img src="img/2.png" class="img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-start p-3">
+                    <h1 class="text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s"
+                        style="animation-delay: 1.3s;">
+                        À l’IFOAD, vous n’apprenez pas seulement l’informatique,<br>
+                        vous devenez acteur de l’innovation numérique.
+                    </h1>
+                    <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                        style="animation-delay: 1.5s;">
+                        Rejoignez-nous dès aujourd’hui et commencez à bâtir votre avenir !
+                    </p>
+                    <a class="btn btn-success rounded-pill py-1 px-5 mb-4 fadeInUp animate__animated"
+                        data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">
+                        S'inscrire
+                    </a>
+                </div>
+                  <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Cours & Évaluations</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Service</li>
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="#">Filière Informatique</a></li>
+                    <li class="breadcrumb-item active text-primary">Cours & Évaluations</li>
                 </ol>    
             </div>
+            </div>
         </div>
+    </div>
         <!-- Header End -->
 
-        <!-- Services Start -->
-        <div class="container-fluid service py-5">
+        <!-- Présentation Filière Start -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <img src="img/3.png" class="img-fluid rounded shadow" alt="Cours en classe">
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <h4 class="text-primary">Filière Informatique - IFOAD</h4>
+                        <h2 class="mb-4">Des cours adaptés à tous les profils</h2>
+                        <p class="mb-3">
+                            Notre filière Informatique à l'Institut de Formation Ouverte et à Distance (IFOAD) propose un enseignement hybride, combinant la richesse des cours en présentiel et la flexibilité de l'apprentissage en ligne. Découvrez comment nous formons les informaticiens de demain grâce à des méthodes pédagogiques innovantes et adaptées à votre rythme.
+                        </p>
+                        <a href="#cours" class="btn btn-primary rounded-pill px-4 py-2 mt-2">Découvrir les cours</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Présentation Filière End -->
+
+        <!-- Cours Physiques Start -->
+        <div class="container-fluid py-5" id="cours">
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="0.1s">
+                        <img src="img/ifoad.jpg" class="img-fluid rounded shadow" alt="Cours en présentiel">
+                    </div>
+                    <div class="col-lg-6 order-lg-1 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h4 class="text-primary">Cours en Présentiel</h4>
+                        <h2 class="mb-4">Une expérience humaine et interactive</h2>
+                        <ul class="mb-3">
+                            <li>Encadrement par des enseignants expérimentés</li>
+                            <li>Travaux pratiques en laboratoire informatique</li>
+                            <li>Projets collaboratifs et ateliers de résolution de problèmes</li>
+                            <li>Échanges directs et networking avec vos pairs</li>
+                        </ul>
+                        <p>
+                            Les cours en classe favorisent l'interaction, la motivation et l'acquisition de compétences pratiques essentielles pour réussir dans le domaine informatique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cours Physiques End -->
+
+        <!-- Cours en Ligne Start -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <img src="img/2.png" class="img-fluid rounded shadow" alt="Cours en ligne">
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <h4 class="text-primary">Cours en Ligne</h4>
+                        <h2 class="mb-4">Apprenez à votre rythme, où que vous soyez</h2>
+                        <ul class="mb-3">
+                            <li>Accès 24h/24 à la plateforme pédagogique</li>
+                            <li>Vidéos de cours, supports téléchargeables et forums d'entraide</li>
+                            <li>Suivi personnalisé par nos tuteurs en ligne</li>
+                            <li>Évaluations interactives et feedback instantané</li>
+                        </ul>
+                        <p>
+                            Notre plateforme e-learning vous permet de concilier études, vie professionnelle et personnelle, tout en bénéficiant d'un accompagnement de qualité.
+                        </p>
+                        <a href="https://www.ifoad-ujkz.net/formationenligne/" class="btn btn-outline-primary rounded-pill px-4 py-2 mt-2" target="_blank">Accéder à la plateforme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cours en Ligne End -->
+
+        <!-- Evaluations Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="0.1s">
+                        <img src="img/3.png" class="img-fluid rounded shadow" alt="Évaluation">
+                    </div>
+                    <div class="col-lg-6 order-lg-1 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h4 class="text-primary">Évaluations</h4>
+                        <h2 class="mb-4">Mesurez vos progrès et validez vos acquis</h2>
+                        <ul class="mb-3">
+                            <li>Contrôles continus en classe et en ligne</li>
+                            <li>Projets pratiques et études de cas réels</li>
+                            <li>Examens semestriels sur site ou à distance</li>
+                            <li>Délais flexibles pour les devoirs en ligne (généralement 1 à 2 semaines)</li>
+                        </ul>
+                        <p>
+                            Les évaluations sont conçues pour tester vos connaissances théoriques et vos compétences pratiques. Un calendrier détaillé est disponible sur la plateforme pour vous permettre de bien vous organiser.
+                        </p>
+                        <a href="#faq" class="btn btn-primary rounded-pill px-4 py-2 mt-2">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Evaluations End -->
+
+        <!-- Services Start (adapté à la filière) -->
+        <div class="container-fluid service py-5 bg-light">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-4"> Offering the Best Consulting & Investa Services</h1>
+                    <h4 class="text-primary">Nos Atouts</h4>
+                    <h1 class="display-4">Pourquoi choisir l'Informatique à l'IFOAD ?</h1>
                 </div>
                 <div class="row g-4 justify-content-center text-center">
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded">
+                        <div class="service-item bg-white rounded shadow">
                             <div class="service-img">
                                 <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Business Strategy Invesments</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-chalkboard-teacher fa-2x me-2"></i> Encadrement de qualité</a>
+                                    <p class="mb-4">Des enseignants passionnés et disponibles pour vous accompagner tout au long de votre parcours.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded">
+                        <div class="service-item bg-white rounded shadow">
                             <div class="service-img">
                                 <img src="img/service-2.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Consultancy & Advice</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-laptop-code fa-2x me-2"></i> Plateforme moderne</a>
+                                    <p class="mb-4">Un accès facile à tous vos cours, ressources et évaluations, où que vous soyez.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded">
+                        <div class="service-item bg-white rounded shadow">
                             <div class="service-img">
                                 <img src="img/service-4.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Invesments Planning</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-users fa-2x me-2"></i> Communauté dynamique</a>
+                                    <p class="mb-4">Participez à des projets, hackathons et forums pour booster votre réseau professionnel.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item bg-light rounded">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item bg-white rounded shadow">
+                            <div class="service-img">
+                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="service-content text-center p-4">
+                                <div class="service-content-inner">
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-chalkboard-teacher fa-2x me-2"></i> Encadrement de qualité</a>
+                                    <p class="mb-4">Des enseignants passionnés et disponibles pour vous accompagner tout au long de votre parcours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s"></div>
+                        <div class="service-item bg-white rounded shadow">
                             <div class="service-img">
                                 <img src="img/service-3.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Private Client Investment</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-certificate fa-2x me-2"></i> Certifications reconnues</a>
+                                    <p class="mb-4">Obtenez un diplôme valorisé sur le marché de l'emploi et poursuivez vos études supérieures.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12">
-                        <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Services More</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="contact.html">Rejoignez-nous !</a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Services End -->
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light py-5">
+        <!-- Témoignages Start -->
+        <div class="container-fluid testimonial bg-white py-5">
             <div class="container py-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks </h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
+                            <h4 class="text-primary">Témoignages</h4>
+                            <h1 class="display-4 mb-4">Ils parlent de leur expérience</h1>
+                            <p class="mb-4">Découvrez les retours de nos étudiants sur les cours, la plateforme et les évaluations à l'IFOAD.</p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="blog.html">Lire tous les avis <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-8">
                         <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="testimonial-item bg-light rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
+                                    <p class="mt-4">Grâce aux cours en ligne, j'ai pu avancer à mon rythme tout en travaillant. Les évaluations sont claires et bien organisées !</p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Tindano Gaël</h5>
+                                        <p class="mb-0">Étudiante en 2ème année</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/Gael.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="testimonial-item bg-light rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
+                                    <p class="mt-4">Les TP en classe sont très enrichissants et les professeurs sont toujours disponibles pour répondre à nos questions.</p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Tindano Gaël</h5>
+                                        <p class="mb-0">Étudiant en 1ère année</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/Gael.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="testimonial-item bg-light rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
+                                    <p class="mt-4">J'ai apprécié la flexibilité des délais pour les devoirs en ligne, cela m'a permis de mieux m'organiser.</p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Pare Abner.</h5>
+                                        <p class="mb-0">Étudiante en 3ème année</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/abner.jpeg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -290,77 +410,72 @@
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
-
+        <!-- Témoignages End -->
 
         <!-- FAQ Start -->
-        <div class="container-fluid faq py-5">
+        <div class="container-fluid faq py-5" id="faq">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="pb-5">
-                            <h4 class="text-primary">FAQs</h4>
-                            <h1 class="display-4">Get the Answers to Common Questions</h1>
+                            <h4 class="text-primary">FAQ</h4>
+                            <h1 class="display-4">Questions fréquentes sur les cours & évaluations</h1>
                         </div>
-                       <div class="accordion bg-light rounded p-4" id="accordionExample">
+                        <div class="accordion bg-light rounded p-4" id="accordionExample">
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTOne">
-                                        What Does a Financial Advisor Do?
+                                        Comment accéder aux cours en ligne ?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        <p>Connectez-vous à la plateforme IFOAD avec vos identifiants. Tous les supports, vidéos et devoirs sont accessibles depuis votre espace personnel.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What industries do you specialize in? 
+                                        Les évaluations sont-elles en présentiel ou à distance ?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        <p>Les contrôles continus peuvent être réalisés en ligne ou en classe selon le type d'évaluation. Les examens finaux sont généralement organisés en présentiel, sauf cas exceptionnel.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Can you guarantee for growth?
+                                        Quel est le délai pour rendre les devoirs en ligne ?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        <p>Le délai varie selon le devoir, mais il est généralement de 1 à 2 semaines. Toutes les dates limites sont indiquées sur la plateforme.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-0">
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What makes your business plans so special?
+                                        Puis-je contacter un enseignant en cas de difficulté ?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        <p>Oui, chaque enseignant est joignable via la messagerie de la plateforme ou lors des permanences en classe. N'hésitez pas à solliciter de l'aide !</p>
                                     </div>
                                 </div>
                             </div>
-                       </div>
+                        </div>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                         <div class="faq-img RotateMoveRight rounded">
-                            <img src="img/faq-img.jpg" class="img-fluid rounded w-100" alt="Image">
-                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read More Q & A <i class="fas fa-arrow-right ms-2"></i></a>
+                            <img src="img/2.png" class="img-fluid rounded w-100" alt="FAQ">
+                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="contact.html">Plus de questions ? <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -368,89 +483,79 @@
         </div>
         <!-- FAQ End -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                                <div class="position-relative mx-auto rounded-pill">
-                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                            <div class="d-flex align-items-center">
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4">Popular Post</h4>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Investment</p>
-                                <a href="#" class="text-body">Revisiting Your Investment & Distribution Goals</a>
-                            </div>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Business</p>
-                                <a href="#" class="text-body">Dimensional Fund Advisors Interview with Director</a>
-                            </div>
-                            <div class="footer-btn text-start">
-                                <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
-                            </div>
+         <div class="container-fluid footer bg-dark text-white py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Contact Info -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contact Info</h4>
+                        <a href="#" class="text-white mb-2"><i class="fa fa-map-marker-alt me-2"></i> Ouagadougou 03</a>
+                        <a href="mailto:contact@ujkz.bf" class="text-white mb-2"><i class="fas fa-envelope me-2"></i>
+                            contact@ujkz.bf</a>
+                        <a href="tel:0022625307064" class="text-white mb-3"><i class="fas fa-phone me-2"></i> 226 25 30
+                            70 64 / 65</a>
+                        <div class="d-flex flex-wrap mt-2">
+                            <a class="btn btn-outline-light btn-sm-square me-2 mb-2"
+                                href="https://www.facebook.com/UniversiteJKZ"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-sm-square me-2 mb-2"
+                                href="https://twitter.com/UniversiteJKZ"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-sm-square me-2 mb-2"
+                                href="https://web.whatsapp.com/send?phone=0022670812680"><i
+                                    class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-sm-square me-2 mb-2"
+                                href="https://www.youtube.com/channel/UC6MSaSjNAj3Y9CsqAqE6cDg?view_as=subscriber"><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-sm-square me-2 mb-2" href="#"><i
+                                    class="fab fa-google"></i></a>
+                            <a class="btn btn-outline-light btn-sm-square mb-2" href="#"><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Footer End -->
 
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                <!-- Localisation -->
+                <div class="col-md-6 col-xl-6">
+                    <h4 class="text-white mb-4">Localisation</h4>
+                    <div class="ratio ratio-16x9 rounded overflow-hidden">
+                        <iframe class="w-100 h-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.413039573126!2d-1.522601129313274!3d12.355241701388735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2ed38d60cff897%3A0xd7c020989f3ed24d!2sUniversit%C3%A9%20Joseph%20ki%20zerbo%20de%20Ouaga!5e0!3m2!1sfr!2sbf!4v1750773611128!5m2!1sfr!2sbf"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-primary" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-primary" href="https://themewagon.com">ThemeWagon</a>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-6 col-xl-3">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <p class="mb-3">Restez informé(e) des dernières actualités de l'IFOAD en vous inscrivant à notre
+                        newsletter.</p>
+                    <div class="position-relative">
+                        <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email"
+                            placeholder="Entrez votre mail">
+                        <button type="button"
+                            class="btn btn-primary rounded-pill position-absolute top-0 end-0 mt-2 me-2 py-2 px-3">Envoyer</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-secondary text-white py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span>&copy; 2025 Université Joseph KI-ZERBO. Tous droits réservés.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Développé par le groupe : 6
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
 
 
         <!-- Back to Top -->
